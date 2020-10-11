@@ -15,6 +15,7 @@ public class IteracaoExemplo1 {
 		int soma = 0;
 		// verificacao se existem mais elementor a serem interados
 		while (iteracao.hasNext()) {
+			// convertendo de string para inteiro e somando cada elemento
 			soma += Integer.parseInt(iteracao.next());
 		}
 
